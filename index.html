@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Piy Custom Slider</title>
+</head>
+<body>
+
+  <article class="container">
+    <h1>Piy Slider Plugin</h1>
+    <ul class="slide-imgs">
+      <li><img src="img/1.jpg" alt="Image1" /></li>
+      <li><img src="img/2.jpg" alt="Image2" /></li>
+      <li><img src="img/3.jpg" alt="Image3" /></li>
+      <li><img src="img/4.jpg" alt="Image4" /></li>
+    </ul>
+  </article>
+
+  <!-- Script Tags -->
+  <script src="js/jQuery.js"></script>
+  <script src="js/PiySlider.js"></script>
+
+  <!-- Initialise the plugin -->
+  <script type="text/javascript">
+    $('.slide-imgs').piySlider({
+      transition: 'slide'
+    });
+  </script>
+</body>
+</html>
